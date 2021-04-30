@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/demo-mall-parent/demo-mall-parent.iml" filepath="$PROJECT_DIR$/demo-mall-parent/demo-mall-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/gzw-demo-mall.iml" filepath="$PROJECT_DIR$/gzw-demo-mall.iml" />
     </modules>
   </component>
