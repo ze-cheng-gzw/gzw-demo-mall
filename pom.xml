@@ -13,6 +13,7 @@
 
     <modules>
         <module>demo-mall-order-web</module>
+        <module>demo-mall-base</module>
     </modules>
 
     <parent>

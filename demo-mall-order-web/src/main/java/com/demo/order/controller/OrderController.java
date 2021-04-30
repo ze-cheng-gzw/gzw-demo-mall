@@ -1,5 +1,6 @@
 package com.demo.order.controller;
 
+import com.demo.vo.FindVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,8 +14,13 @@ public class OrderController {
 
     @GetMapping("/order/test")
     @ApiOperation(value = "测试", notes = "测试")
-    public String test() {
+    public FindVO test() {
 
-        return "测试";
+        FindVO findVO = new FindVO();
+        findVO.setId(1L);
+        findVO.setName("桂志伟");
+        findVO.setAge(23);
+
+        return findVO;
     }
 }

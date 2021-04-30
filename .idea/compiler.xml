@@ -3,13 +3,22 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-mall-base" />
+        <module name="demo-mall-order-web" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo-mall-base" target="1.8" />
       <module name="demo-mall-order-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-mall-base" options="-parameters" />
       <module name="demo-mall-order-web" options="-parameters" />
     </option>
   </component>
