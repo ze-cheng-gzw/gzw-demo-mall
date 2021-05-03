@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/demo-mall-parent/pom.xml" />
         <option value="$PROJECT_DIR$/demo-mall-order-web/pom.xml" />
         <option value="$PROJECT_DIR$/demo-mall-base/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mall-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-mall-service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

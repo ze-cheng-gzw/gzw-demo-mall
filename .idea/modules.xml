@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/demo-mall-base/demo-mall-base.iml" filepath="$PROJECT_DIR$/demo-mall-base/demo-mall-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-mall-interface/demo-mall-interface.iml" filepath="$PROJECT_DIR$/demo-mall-interface/demo-mall-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-mall-order-web/demo-mall-order-web.iml" filepath="$PROJECT_DIR$/demo-mall-order-web/demo-mall-order-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-mall-service/demo-mall-service.iml" filepath="$PROJECT_DIR$/demo-mall-service/demo-mall-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/gzw-demo-mall.iml" filepath="$PROJECT_DIR$/gzw-demo-mall.iml" />
     </modules>
   </component>
