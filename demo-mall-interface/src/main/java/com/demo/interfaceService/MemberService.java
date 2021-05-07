@@ -4,5 +4,7 @@ import com.demo.entity.Member;
 
 public interface MemberService {
 
-    public Member findMemberById();
+    Member findMemberById();
+
+    int addMember(Member member);
 }
