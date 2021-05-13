@@ -5,6 +5,8 @@ import com.demo.entity.Member;
 import com.demo.interfaceService.MemberService;
 import com.demo.vo.FindVO;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -36,5 +38,15 @@ public class OrderController {
     public Member getMemberById() {
 
         return memberService.findMemberById();
+    }
+
+    @GetMapping("/order/distributedLock_redisSon")
+    @ApiOperation(value = "使用redisSon来使用分布式锁", notes = "测试")
+    @ApiImplicitParams({
+            @ApiImplicitParam(name = "memberId", value = "用户Id", required = true, paramType = "query", dataType = "Long")
+    })
+    public Member distributedLock_redisSon(Long memberId) {
+
+        return memberService.distributedLock_redisSon(memberId);
     }
 }

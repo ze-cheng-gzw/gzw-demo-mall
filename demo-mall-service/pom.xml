@@ -72,6 +72,11 @@
             <artifactId>mybatis-generator-core</artifactId>
         </dependency>
 
+        <dependency>
+        <groupId>org.redisson</groupId>
+        <artifactId>redisson</artifactId>
+    </dependency>
+
     </dependencies>
 
     <!-- 打包 -->
